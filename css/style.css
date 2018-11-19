@@ -1,0 +1,379 @@
+body {
+    font-family: lucida sans;
+}
+
+.sections{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*===== NAV > header =====*/
+header {
+    height: auto;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5 ease-in-out;
+}
+
+header .name-rest h2 {
+    text-align: center;
+    font-family: 'Miller';
+    font-size: 2rem;
+}
+
+
+
+header nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    opacity: 0.8;
+}
+
+header nav .nav-list .list a {
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 0.85rem;
+
+}
+
+.aw {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+.ab{
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+*/
+
+header nav .nav-list .list a:hover {
+    color: #7cb62f;
+}
+
+.sticky {
+    background: white;
+    color: black;
+    opacity: 0.8;
+    transition: all 0.8s ease-in-out;
+}
+
+/*
+.h2b {
+color: black;
+}
+*/
+
+.h2w {
+    color: white;
+}
+
+
+/*===== /NAV =====*/
+
+
+/*===== BACKGROUND TOP =====*/
+.home {
+    height: 90vh;
+    background-image: url(../images/home/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.home .home-content {
+    padding-top: 25vh;
+    text-align: center;
+    align-items: center;
+
+}
+
+.button-top {
+    font-family: "Neutra Bold";
+    -moz-box-shadow:inset 0px 0px 0px -50px #ffffff;
+    -webkit-box-shadow:inset 0px 0px 0px -50px #ffffff;
+    background-color:transparent;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:12px;
+    letter-spacing: 3px;
+    padding:9px 50px;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+}
+.button-top:hover {
+    background-color:white;
+    color: black;
+}
+
+
+
+/*===== /BACKGROUND TOP =====*/
+
+
+/*===== FIRST LINE =====*/
+.about-img{
+    background-image: url(../images/home/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+}
+.about-info h3 {
+    font-family: 'Miller';
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+    color: #838d59;
+    text-align: center;
+    margin-top: 5vh;
+}
+.about-info .about-info-desc {
+    line-height: 1.8;
+    color: #888;
+    text-align: justify;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.about-info .button-first-line{
+    font-family: "Neutra Bold";
+    -moz-box-shadow:inset 0px 0px 0px -50px #ffffff;
+    -webkit-box-shadow:inset 0px 0px 0px -50px #ffffff;
+    background-color:transparent;
+    border:2px solid #838d59;
+    display:inline-block;
+    cursor:pointer;
+    color:#838d59;
+    font-size:12px;
+    letter-spacing: 3px;
+    padding:9px 50px;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+
+
+}
+.button-first-line:hover {
+    background-color:#838d59;
+    color: white;
+}
+
+/*===== /FIRST LINE=====*/
+
+/*===== SECOND LINE=====*/
+.img-sl-1 {
+    background-image: url(../images/gastro-plats/img1.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+
+}
+.img-sl-2 {
+    background-image: url(../images/gastro-plats/img2.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+}
+.img-sl-3 {
+    background-image: url(../images/gastro-plats/img3.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+}
+.img-sl-4 {
+    background-image: url(../images/gastro-plats/img4.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+}
+/*===== /SECONDLINE=====*/
+
+/*===== THIRD LINE=====*/
+.content-th-line {
+    background-color: white;
+    opacity: 0.8;
+    min-height: 80vh;
+}
+.img-th-line{
+    background-image: url(../images/home/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 80vh;
+}
+/*===== /THIRD LINE=====*/
+
+/*===== FOURTH LINE=====*/
+.img-fl-1 {
+    background-image: url(../images/gastro-plats/img1.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+
+}
+.img-fl-2 {
+    background-image: url(../images/gastro-plats/img2.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+}
+.img-fl-3 {
+    background-image: url(../images/gastro-plats/img3.jpg);
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+
+}
+/*===== /FOURTH LINE=====*/
+
+/*===== FIFTH LINE=====*/
+.content-fh-line {
+    background-color: black;
+    opacity: 0.8;
+    min-height: 80vh;
+}
+.img-fh-line{
+    background-image: url(../images/home/wine.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    min-height: 80vh;
+}
+/*===== /FIFTH LINE=====*/
+
+/*===== FOOTER=====*/
+
+footer {
+    background-color: #363839;
+
+}
+.btn-floating {
+    font-size: 2rem;
+    cursor: pointer;
+    transition:  all .3s ease-in-out;
+}
+
+..btn-floating:hover {
+    color: red;
+}
+/*===== /FOOTER=====*/
+
+/*===== PAGE ABOUT=====*/
+.hist-rest {
+    font-family: 'Miller';
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.staff {
+
+    padding-bottom: 30px;
+}
+
+.staff .container {
+    padding-top: 100px;
+}
+
+.staff h4 {
+    font-family: 'Miller';
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.staff .text-staff {
+    color: #6d6e71!important;
+    font-size: 1rem;
+    font-family: GeoSansLight,Poppins,sans-serif!important;
+    letter-spacing: .08em;
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.staff .img-staff {
+    background-image: url(../images/about/chef.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+/*===== /PAGE ABOUT=====*/
+
+/*===== PAGE GALLERY=====*/
+
+.gallery {
+    padding-top: 50px;
+}
+
+.gallery .img-gal-1 {
+    background-image: url(../images/gastro-plats/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+}
+
+.gallery .img-gal-2 {
+    background-image: url(../images/gastro-plats/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.gallery .img-gal-3 {
+    background-image: url(../images/gastro-plats/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.gallery .img-gal-4 {
+    background-image: url(../images/gastro-plats/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+
+/*===== /PAGE GALLERY=====*/
+
